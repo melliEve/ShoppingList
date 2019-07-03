@@ -1,0 +1,29 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "shopping list built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melliEve/ShoppingList.git"
+  },
+  "author": "melliEve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melliEve/ShoppingList/issues"
+  },
+  "homepage": "https://github.com/melliEve/ShoppingList#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
